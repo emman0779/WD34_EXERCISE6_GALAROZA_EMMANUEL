@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+body {
+    background-color: whitesmoke;
+    object-fit: cover;
+}
+
+.una {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(6, 6, 97);
+}
+
+.una img {
+    position: absolute;
+    top: 5px;
+    height: 80px;
+    left: 10px;
+}
+
+.una h1 {
+    position: relative;
+    top: -21px;
+    left: 100px;
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color: white;
+}
+
+.dos  {
+    width: 100%;
+    height: 50px;
+    background-color: lightgrey;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    box-shadow: 0 2px 5px black;
+    z-index: 5;
+}
+
+nav {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.dos_nav a {
+    padding-left: 20px;
+    color: rgb(6, 6, 97);
+    text-decoration: none;
+    padding: 0 25px;
+}
+
+.lets {
+    float: right;
+}
+
+.allen_img {
+    position: absolute;
+    left: 0;
+    top: 140px;
+    z-index: 2;
+    height: 624px;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(1.5px) brightness(0.8);
+}
+
+.tres {
+    z-index: 3;
+    position: absolute;
+    color: black;
+    font-family: 'Kolker Brush', cursive;
+    letter-spacing: 1px;
+    font-size: 200px;
+    font-weight: lighter;
+    top: 220px;
+    left: 250px;
+}
+
+div .next {
+    z-index: 3;
+    position: absolute;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 45px;
+    top: 270px;
+    left: 230px;
+}
+
+.note {
+    position: relative;
+    z-index: 2;
+    top: 210px;
+    left: 100px;
+}
+
+.gateway {
+    z-index: 3;
+    position: absolute;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 150px;
+    top: 100px;
+    left: 800px;
+    color: white;
+    font-weight: lighter;
+    text-shadow: 0 0 10px black;
+}
+
+.kwatro {
+    width: 100%;
+    background-color: whitesmoke;
+    position: sticky;
+    margin-top: 244px;
+    top: 0px;
+    height: 70px;
+    z-index: 3;
+}
+
+.luzviminda {
+    font-size: 180px;
+    position: absolute;
+    right: -140px;
+    font-family: 'Tangerine', cursive;
+}
+
+.luz {
+    -webkit-text-stroke: 3px rgb(0, 0, 255);
+}
+
+.vi {
+    -webkit-text-stroke: 3px yellow;
+}
+
+.minda {
+    -webkit-text-stroke: 3px red;
+}
+
+.kwatro nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 200px 0;
+}
+
+.kwatro nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places .pic_border img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.pic_border {
+    border: 1px solid black;
+    display: block;
+    width: 400px;
+    margin: 50px 50px;
+    box-shadow: 0 0 10px black;
+}
+
+.places .pic_border p {
+    text-align: justify;
+    padding: 0 10px;
+    text-indent: 50px;
+}
+
+.all_allen, .history {
+    font-family: 'Kolker Brush', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+    margin: 0 0 10px;
+}
+
+.about_allen p {
+    margin: 0 50px 20px;;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 20px;
+}
+
+fieldset {
+    margin: 50px 100px 50px;
+    box-shadow: -5px 5px 10px black;
+}
